@@ -11,6 +11,15 @@ function App() {
         <img src={PoweredImage} alt="Logo" width={150}/>
       </div>
     </header>
+
+    <div className={styles.container}>
+      <div className={styles.leftSide}>
+          ...
+      </div>
+      <div className={styles.rightSide}>
+          ...
+      </div>
+    </div>
   </div>
   )
 }
