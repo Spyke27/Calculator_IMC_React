@@ -5,6 +5,14 @@ import PoweredImage from './assets/powered.png'
 function App() {
   const [heightField, setHeightField] = useState(0);
   const [weightField, setWeightField] = useState(0);
+
+  const handleCalculate = () => {
+    if(heightField && weightField){
+        
+    }else {
+      alert("Preencha todas as informações!")
+    }
+  }
   
   return (
   <div className={styles.main}>
@@ -25,6 +33,15 @@ function App() {
           value={heightField > 0 ? heightField : ""} //Deixar o placeholder até que haja algum valor
           onChange={e => setHeightField(parseFloat(e.target.value))}
           />
+
+          <input 
+          type="number"
+          placeholder="Digite o seu peso: "
+          value={weightField > 0 ? weightField : ""} //Deixar o placeholder até que haja algum valor
+          onChange={e => setWeightField(parseFloat(e.target.value))}
+          />
+
+          <button onClick={handleCalculate}>Calcular</button>
           
       </div>
       <div className={styles.rightSide}>
