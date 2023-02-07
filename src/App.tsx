@@ -27,6 +27,7 @@ const App = () => {
 
   return (
     <div className={styles.main}>
+      <div className={styles.a}></div>
       
       <header>
       <div className={styles.headerContainer}>
