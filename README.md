@@ -12,7 +12,7 @@
 
  ## Projeto rodando:
  
- 🔰 Link: <a href="https://gameskids.netlify.app/">www.calculator_imc.com.br</a>
+ 🔰 Link: <a href="https://calculator-imc-react.vercel.app/">calculator_imc.vercel</a>
 ## Resultado 💻
  <hr>
  <div style="display: flex;">
