@@ -13,12 +13,11 @@ body{
     display: flex;
     max-width: 900px;
     margin: auto;
+    gap: 80px;
 }
-.leftSide{
+.container .leftSide{
     flex: 1;
-    background-color: red;
 }
-.rightSide{
+.container .rightSide{
     flex: 1;
-    background-color: blue;
 }
