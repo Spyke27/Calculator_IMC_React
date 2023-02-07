@@ -15,7 +15,7 @@ const App = () => {
     if (heightField && weightField) {
       setToShow(calculateImc(heightField, weightField));
     } else {
-      alert("Digite todos os campos.");
+      alert("Preencha todos os campos!");
     }
   }
 
