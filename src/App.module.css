@@ -8,6 +8,17 @@ body{
 .headerContainer{
     max-width: 900px;
     margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #3a4b5c;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    color: #1C7D9F;
 }
 .container{
     display: flex;

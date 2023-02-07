@@ -16,9 +16,11 @@ function App() {
   
   return (
   <div className={styles.main}>
+
     <header>
       <div className={styles.headerContainer}>
-        <img src={PoweredImage} alt="Logo" width={150}/>
+        <div className={styles.logo}><img src={PoweredImage} alt="Logo" width={150}/><h2>Calculator</h2></div>
+        <p>Powered by Rodrigo Daniel</p>
       </div>
     </header>
 
